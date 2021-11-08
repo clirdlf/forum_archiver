@@ -37,8 +37,8 @@ cmd="wget \
   --mirror \
   --warc-file=${DOMAIN} \
   --warc-cdx \
-  --page-requisites
-  --html-extension \
+  --page-requisites \
+  --adjust-extension \
   --convert-links \
   --execute robots=off \
   --directory-prefix=. \
